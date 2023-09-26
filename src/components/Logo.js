@@ -3,8 +3,8 @@ import { Box, Text } from '@chakra-ui/react';
 
 const Logo = () => {
   const svgStyle = {
-    width: '150px', // Adjust the width of the SVG as needed
-    height: '100px', // Maintain aspect ratio
+    width: '120px', 
+    height: '100px', 
     marginRight: '10px', 
   };
 
@@ -34,7 +34,7 @@ const Logo = () => {
         
               
       </svg>
-      <Text style={textStyle} color="pink.600">|a | l | e | x |</Text>
+      <Text style={textStyle} color="pink.600">| a | l | e | x |</Text>
     </Box>
   );
 };
