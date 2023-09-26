@@ -3,8 +3,8 @@ import { Box, Text } from '@chakra-ui/react';
 
 const Logo = () => {
   const svgStyle = {
-    width: '80px', 
-    height: '80px', 
+    width: '60px', 
+    height: '60px', 
     marginRight: '10px', 
   };
 
