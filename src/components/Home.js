@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react"
 
-export default function Hero({
+export default function Home({
   title,
   subtitle,
   image,
