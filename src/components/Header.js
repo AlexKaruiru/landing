@@ -38,7 +38,7 @@ const Header = (props) => {
   const [isMobile, setIsMobile] = useState(false);
 
   const toggleMobileView = () => {
-    setIsMobile(window.innerWidth <= 768); // You can adjust the breakpoint as needed
+    setIsMobile(window.innerWidth <= 768); 
   };
 
   useEffect(() => {

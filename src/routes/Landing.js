@@ -14,8 +14,8 @@ export default function Landing(props) {
     >
       <Header />
       <Home
-        title="Adapted Chakra Landing Page"
-        subtitle="Used Create-React-App, Chakra UI"
+        title="A Simple Landing Page"
+        subtitle="Tools: React, Chakra UI"
         image="https://source.unsplash.com/collection/404339/800x600"
         ctaText="Create your account now"
         ctaLink="/signup"
