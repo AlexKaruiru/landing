@@ -1,7 +1,7 @@
 import { Flex } from "@chakra-ui/react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import Hero from "../components/Hero"
+import Home from "../components/Home"
 
 export default function Landing(props) {
   return (
@@ -13,9 +13,9 @@ export default function Landing(props) {
       {...props}
     >
       <Header />
-      <Hero
-        title="Adapted Chakra Landing Page Tutorial"
-        subtitle="Used Create-React-App Chakra Template"
+      <Home
+        title="Adapted Chakra Landing Page"
+        subtitle="Used Create-React-App, Chakra UI"
         image="https://source.unsplash.com/collection/404339/800x600"
         ctaText="Create your account now"
         ctaLink="/signup"

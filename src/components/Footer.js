@@ -17,7 +17,7 @@ import {
           bg={["primary.500", "primary.500", "transparent", "transparent"]}
         >
           <Logo />
-          <Text>© 2022 logoipsum. All Rights Reserved.</Text>
+          <Text>© {new Date().getFullYear()} Alex. All Rights Reserved.</Text>
       </Flex>
     );
   }
