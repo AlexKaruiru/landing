@@ -3,14 +3,14 @@ import { Box, Text } from '@chakra-ui/react';
 
 const Logo = () => {
   const svgStyle = {
-    width: '120px', 
-    height: '100px', 
+    width: '80px', 
+    height: '80px', 
     marginRight: '10px', 
   };
 
   const textStyle = {
     fontFamily: 'Arial',
-    fontSize: '25px',
+    fontSize: '15px',
     
   };
 
